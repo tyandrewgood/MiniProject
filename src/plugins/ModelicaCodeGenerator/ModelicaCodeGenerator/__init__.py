@@ -19,6 +19,7 @@ logger.addHandler(handler)
 
 
 class ModelicaCodeGenerator(PluginBase):
+    """
     def main(self):
       core = self.core
       logger = self.logger
@@ -31,15 +32,9 @@ class ModelicaCodeGenerator(PluginBase):
 
       commit_info = self.util.save(root_node, self.commit_hash, 'master', 'Python plugin updated the model')
       logger.info('committed :{0}'.format(commit_info))
+    """
 
-
-
-
-
-
-
-
-      """              
+           
       active_node = self.active_node
       core = self.core
       logger = self.logger
@@ -285,4 +280,3 @@ class ModelicaCodeGenerator(PluginBase):
       logger.info(isFreeChoice)
       logger.info(isWorkFlowNet)
 
-      """

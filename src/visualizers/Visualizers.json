@@ -1,0 +1,8 @@
+[
+  {
+    "id": "MyNewVizualizer",
+    "title": "MyNewVizualizer",
+    "panel": "panels/MyNewVizualizer/MyNewVizualizerPanel",
+    "DEBUG_ONLY": false
+  }
+]

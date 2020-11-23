@@ -1,0 +1,25 @@
+{
+  "components": {
+    "plugins": {
+      "ModelicaCodeGenerator": {
+        "src": "src/plugins/ModelicaCodeGenerator",
+        "test": "test/plugins/ModelicaCodeGenerator"
+      }
+    },
+    "seeds": {},
+    "visualizers": {
+      "MyNewVizualizer": {
+        "src": "panels/MyNewVizualizer/MyNewVizualizerPanel",
+        "title": "MyNewVizualizer",
+        "panel": "src/visualizers/panels/MyNewVizualizer",
+        "secondary": false,
+        "widget": "src/visualizers/widgets/MyNewVizualizer"
+      }
+    }
+  },
+  "dependencies": {
+    "plugins": {},
+    "seeds": {},
+    "visualizers": {}
+  }
+}

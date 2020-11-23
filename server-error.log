@@ -1,0 +1,270 @@
+2020-11-18T02:37:47.696Z - error: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close
+2020-11-18T02:37:47.698Z - error: [gme:server:standalone:middleware:BlobServer] Error: ReadStream was closed while writing file!
+2020-11-18T02:37:47.699Z - error: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close
+2020-11-18T02:38:38.829Z - error: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close
+2020-11-18T02:38:38.830Z - error: [gme:server:standalone:middleware:BlobServer] Error: ReadStream was closed while writing file!
+2020-11-18T02:38:38.830Z - error: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close
+2020-11-18T02:40:24.362Z - error: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close
+2020-11-18T02:40:24.362Z - error: [gme:server:standalone:middleware:BlobServer] Error: ReadStream was closed while writing file!
+2020-11-18T02:40:24.363Z - error: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close
+2020-11-18T02:43:09.473Z - error: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close
+2020-11-18T02:43:09.475Z - error: [gme:server:standalone:middleware:BlobServer] Error: ReadStream was closed while writing file!
+2020-11-18T02:43:09.475Z - error: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close
+2020-11-18T02:50:16.846Z - error: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close
+2020-11-18T02:50:16.848Z - error: [gme:server:standalone:middleware:BlobServer] Error: ReadStream was closed while writing file!
+2020-11-18T02:50:16.848Z - error: [gme:server:standalone:middleware:BlobServer:BlobBackend] readStream on close
+2020-11-22T02:13:56.728Z - error: [gme:server:worker:simpleworker:pid_1532:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Traceback (most recent call last):
+  File "C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py", line 12, in <module>
+    from webgme_bindings import WebGME
+ImportError: No module named webgme_bindings
+
+2020-11-22T02:13:56.731Z - error: [gme:server:worker:simpleworker:pid_1532:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T02:13:56.736Z - error: [gme:server:worker:simpleworker:pid_1532:WorkerFunctions] plugin [ModelicaCodeGenerator] failed with error message=python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1., stack=Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T02:15:03.083Z - error: [gme:server:worker:simpleworker:pid_1496:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Traceback (most recent call last):
+  File "C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py", line 12, in <module>
+    from webgme_bindings import WebGME
+ImportError: No module named webgme_bindings
+
+2020-11-22T02:15:03.086Z - error: [gme:server:worker:simpleworker:pid_1496:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T02:15:03.090Z - error: [gme:server:worker:simpleworker:pid_1496:WorkerFunctions] plugin [ModelicaCodeGenerator] failed with error message=python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1., stack=Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T02:19:20.579Z - error: [gme:server:worker:simpleworker:pid_1496:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Traceback (most recent call last):
+  File "C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py", line 12, in <module>
+    from webgme_bindings import WebGME
+ImportError: No module named webgme_bindings
+
+2020-11-22T02:19:20.582Z - error: [gme:server:worker:simpleworker:pid_1496:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T02:19:20.583Z - error: [gme:server:worker:simpleworker:pid_1496:WorkerFunctions] plugin [ModelicaCodeGenerator] failed with error message=python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1., stack=Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T02:53:34.521Z - error: [gme:server:worker:simpleworker:pid_14664:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Traceback (most recent call last):
+  File "C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py", line 12, in <module>
+    from webgme_bindings import WebGME
+ImportError: No module named webgme_bindings
+
+2020-11-22T02:53:34.524Z - error: [gme:server:worker:simpleworker:pid_14664:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T02:53:34.527Z - error: [gme:server:worker:simpleworker:pid_14664:WorkerFunctions] plugin [ModelicaCodeGenerator] failed with error message=python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1., stack=Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T02:55:59.570Z - error: [gme:server:worker:simpleworker:pid_14664:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Traceback (most recent call last):
+  File "C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py", line 12, in <module>
+    from webgme_bindings import WebGME
+ImportError: No module named webgme_bindings
+
+2020-11-22T02:55:59.572Z - error: [gme:server:worker:simpleworker:pid_14664:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T02:55:59.573Z - error: [gme:server:worker:simpleworker:pid_14664:WorkerFunctions] plugin [ModelicaCodeGenerator] failed with error message=python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1., stack=Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T03:37:02.339Z - error: [gme:server:worker:simpleworker:pid_8840:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Traceback (most recent call last):
+  File "C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py", line 12, in <module>
+    from webgme_bindings import WebGME
+ImportError: No module named webgme_bindings
+
+2020-11-22T03:37:02.343Z - error: [gme:server:worker:simpleworker:pid_8840:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T03:37:02.347Z - error: [gme:server:worker:simpleworker:pid_8840:WorkerFunctions] plugin [ModelicaCodeGenerator] failed with error message=python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1., stack=Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T03:37:53.565Z - error: [gme:server:worker:simpleworker:pid_8840:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Traceback (most recent call last):
+  File "C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py", line 12, in <module>
+    from webgme_bindings import WebGME
+ImportError: No module named webgme_bindings
+
+2020-11-22T03:37:53.568Z - error: [gme:server:worker:simpleworker:pid_8840:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T03:37:53.569Z - error: [gme:server:worker:simpleworker:pid_8840:WorkerFunctions] plugin [ModelicaCodeGenerator] failed with error message=python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1., stack=Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T03:44:33.344Z - error: [gme:server:worker:simpleworker:pid_7444:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Traceback (most recent call last):
+  File "C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py", line 12, in <module>
+    from webgme_bindings import WebGME
+ImportError: No module named webgme_bindings
+
+2020-11-22T03:44:33.347Z - error: [gme:server:worker:simpleworker:pid_7444:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T03:44:33.350Z - error: [gme:server:worker:simpleworker:pid_7444:WorkerFunctions] plugin [ModelicaCodeGenerator] failed with error message=python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1., stack=Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T03:44:49.926Z - error: [gme:server:worker:simpleworker:pid_6500:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Traceback (most recent call last):
+  File "C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py", line 12, in <module>
+    from webgme_bindings import WebGME
+ImportError: No module named webgme_bindings
+
+2020-11-22T03:44:49.928Z - error: [gme:server:worker:simpleworker:pid_6500:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T03:44:49.932Z - error: [gme:server:worker:simpleworker:pid_6500:WorkerFunctions] plugin [ModelicaCodeGenerator] failed with error message=python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1., stack=Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T03:45:35.211Z - error: [gme:server:worker:simpleworker:pid_5820:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Traceback (most recent call last):
+  File "C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py", line 12, in <module>
+    from webgme_bindings import WebGME
+ImportError: No module named webgme_bindings
+
+2020-11-22T03:45:35.214Z - error: [gme:server:worker:simpleworker:pid_5820:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T03:45:35.217Z - error: [gme:server:worker:simpleworker:pid_5820:WorkerFunctions] plugin [ModelicaCodeGenerator] failed with error message=python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1., stack=Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T03:51:11.194Z - error: [gme:server:worker:simpleworker:pid_5820:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Traceback (most recent call last):
+  File "C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py", line 12, in <module>
+    from webgme_bindings import WebGME
+ImportError: No module named webgme_bindings
+
+2020-11-22T03:51:11.196Z - error: [gme:server:worker:simpleworker:pid_5820:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T03:51:11.197Z - error: [gme:server:worker:simpleworker:pid_5820:WorkerFunctions] plugin [ModelicaCodeGenerator] failed with error message=python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1., stack=Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T19:35:16.098Z - error: [gme:server:worker:simpleworker:pid_7476:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Traceback (most recent call last):
+  File "C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py", line 12, in <module>
+    from webgme_bindings import WebGME
+ImportError: No module named webgme_bindings
+
+2020-11-22T19:35:16.101Z - error: [gme:server:worker:simpleworker:pid_7476:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T19:35:16.105Z - error: [gme:server:worker:simpleworker:pid_7476:WorkerFunctions] plugin [ModelicaCodeGenerator] failed with error message=python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1., stack=Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T19:39:06.504Z - error: [gme:server:worker:simpleworker:pid_7476:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Traceback (most recent call last):
+  File "C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py", line 12, in <module>
+    from webgme_bindings import WebGME
+ImportError: No module named webgme_bindings
+
+2020-11-22T19:39:06.507Z - error: [gme:server:worker:simpleworker:pid_7476:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/M" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T19:39:06.508Z - error: [gme:server:worker:simpleworker:pid_7476:WorkerFunctions] plugin [ModelicaCodeGenerator] failed with error message=python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/M" "" "" exited with code 1., stack=Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/M" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T19:40:11.843Z - error: [gme:server:worker:simpleworker:pid_1084:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Traceback (most recent call last):
+  File "C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py", line 12, in <module>
+    from webgme_bindings import WebGME
+ImportError: No module named webgme_bindings
+
+2020-11-22T19:40:11.846Z - error: [gme:server:worker:simpleworker:pid_1084:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T19:40:11.849Z - error: [gme:server:worker:simpleworker:pid_1084:WorkerFunctions] plugin [ModelicaCodeGenerator] failed with error message=python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1., stack=Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T19:45:29.733Z - error: [gme:server:worker:simpleworker:pid_1084:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Traceback (most recent call last):
+  File "C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py", line 12, in <module>
+    from webgme_bindings import WebGME
+ImportError: No module named webgme_bindings
+
+2020-11-22T19:45:29.736Z - error: [gme:server:worker:simpleworker:pid_1084:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/M" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T19:45:29.737Z - error: [gme:server:worker:simpleworker:pid_1084:WorkerFunctions] plugin [ModelicaCodeGenerator] failed with error message=python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/M" "" "" exited with code 1., stack=Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/M" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T19:46:13.438Z - error: [gme:server:worker:simpleworker:pid_17288:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Traceback (most recent call last):
+  File "C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py", line 12, in <module>
+    from webgme_bindings import WebGME
+ImportError: No module named webgme_bindings
+
+2020-11-22T19:46:13.442Z - error: [gme:server:worker:simpleworker:pid_17288:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T19:46:13.445Z - error: [gme:server:worker:simpleworker:pid_17288:WorkerFunctions] plugin [ModelicaCodeGenerator] failed with error message=python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1., stack=Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T20:24:48.118Z - error: [gme:server:worker:simpleworker:pid_2960:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Traceback (most recent call last):
+  File "C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py", line 12, in <module>
+    from webgme_bindings import WebGME
+ImportError: No module named webgme_bindings
+
+2020-11-22T20:24:48.122Z - error: [gme:server:worker:simpleworker:pid_2960:WorkerFunctions:PluginManagerBase:plugin:ModelicaCodeGenerator] Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+2020-11-22T20:24:48.125Z - error: [gme:server:worker:simpleworker:pid_2960:WorkerFunctions] plugin [ModelicaCodeGenerator] failed with error message=python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1., stack=Error: python C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\run_plugin.py 5555 "#27d55c25f1f3d568ecaf7412f1028255435cf361" "master" "/m" "" "" exited with code 1.
+    at ChildProcess.<anonymous> (C:\work\modelica-circuits\src\plugins\ModelicaCodeGenerator\ModelicaCodeGenerator.js:99:37)
+    at ChildProcess.emit (events.js:315:20)
+    at maybeClose (internal/child_process.js:1048:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)

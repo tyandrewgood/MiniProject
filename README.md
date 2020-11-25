@@ -30,3 +30,5 @@ After creating a network, our design studio allows you to utilize some helpful f
 
 ADD DESCRIPTION FOR SIMULATOR
 
+
+Lastly, if you download the design studio that I created it comes with four examples of Petri Nets. The first two, 'SmallExample1' and 'SmallExample2', are examples to help the user learn the basics of the design studio. Here, the user can easily study the different components such as places, transitions, and arcs. By better understanding these examples, I thought the user could then go and make more complex Petri Nets. 'SmallExample1' is also the example that will come with the new seed. This way new users have a reference. Additionally, the third example is called 'BigExample'. It outlines a possible use case for Petri Nets as it represents a delivery service system. The final example is called 'StateMachineExample'. This example was built to help validate our built-in interpreter tool. This can also be used as a resource for a new user to learn more how each component is related. 

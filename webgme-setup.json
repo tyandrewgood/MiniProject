@@ -6,7 +6,11 @@
         "test": "test/plugins/ModelicaCodeGenerator"
       }
     },
-    "seeds": {},
+    "seeds": {
+      "Petri": {
+        "src": "src/seeds/Petri"
+      }
+    },
     "visualizers": {
       "MyNewVizualizer": {
         "src": "panels/MyNewVizualizer/MyNewVizualizerPanel",
@@ -14,6 +18,13 @@
         "panel": "src/visualizers/panels/MyNewVizualizer",
         "secondary": false,
         "widget": "src/visualizers/widgets/MyNewVizualizer"
+      },
+      "simulator": {
+        "src": "panels/simulator/simulatorPanel",
+        "title": "simulator",
+        "panel": "src/visualizers/panels/simulator",
+        "secondary": false,
+        "widget": "src/visualizers/widgets/simulator"
       }
     }
   },

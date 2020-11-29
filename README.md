@@ -22,10 +22,14 @@ Installation Steps:
 3)	Then, run webgme start from the project root to start. Finally, navigate to http://localhost:8888 to start using Petri Nets! 
 4)	The Design Studio created for this project is called ‘MiniProject’. 
 5)	You can also create your own project and use the Seed created called ‘Petri’.
-6)  When using the Seed, you need to enable to plug ing to utilize the interpreter. Below are the steps for this. 
+6)  When using the Seed, you need to enable to plug ing to utilize the interpreter. Below are the steps for this:
+   
     a.  On the right tool bar, click on Meta
+    
     b.  Under the META dropdown click on validPlugins
+    
     c.  Check the box on 'ModelicaCodeGenerator'
+    
 Once, you have installed the design studio, you are ready to start modeling. To begin switch to your composition view (on the left bar) and drag over a PetriNet object. Click on the PetriNet and select the arrow to move inside of hit. Here you, can create our own examples. On the left is the option to drag over places or transitions. You can then connect the transitions by connecting clicking one of them and dragging a line from it to another place or transition. To modify, attributes such as names or markings, click on the object, and use the toolbar on the right. You can also edit, the appearance of objects using the SVG decorator within the right toolbar. For ease, I tried to preset an image that I thought would make sense for most use cases. 
     
 After creating a network, our design studio allows you to utilize some helpful functions. The first function that I want to highlight is the built-in interpreter. The interpreter allows users to check if their example Petri Nets are of four types of classifications.  These types of PetriNet classifications are Free Choice, State Machine, Marked Graph, and Workflow Net. To change the goal of the interpreter, modify the init.py file, in the src/plugin folder. The interpreter is attached to the tool bar at the top left (looks like a play button). To use it, first select which example you want to analyze. Then, click the play button on the top left of the tool bar and select the Code Generator, and select ‘Run’. After processing, you will receive four notifications in the bottom right corner of your screen. Each notification corresponds to a type of classification and allows the user to know if their example is of that type. After clicking the notifications, you can erase them by clicking on the trash can icon. Lastly, if you click on the interpreter button and select ‘Show results…’, you can clear previous usages.  

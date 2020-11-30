@@ -26,13 +26,6 @@ Installation Steps:
 
 5.	You can also create your own project and use the Seed created called ‘Petri’.
 
-6.	When using the Seed, you need to enable to plug ing to utilize the interpreter. Below are the steps for this:
-
-    a. On the right tool bar, click on Meta
-
-    b. Under the META dropdown click on validPlugins
-
-    c. Check the box on 'ModelicaCodeGenerator'
 
 Once, you have installed the design studio, you are ready to start modeling. To begin switch to your composition view (on the left bar) and drag over a PetriNet object. Click on the PetriNet and select the arrow to move inside of hit. Here you, can create our own examples. On the left is the option to drag over places or transitions. You can then connect the transitions by connecting clicking one of them and dragging a line from it to another place or transition. To modify, attributes such as names or markings, click on the object, and use the toolbar on the right. You can also edit, the appearance of objects using the SVG decorator within the right toolbar. For ease, I tried to preset an image that I thought would make sense for most use cases.
 

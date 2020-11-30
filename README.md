@@ -20,9 +20,9 @@ Installation Steps:
     
 2.	Second, start mongodb locally by running the mongod executable in your mongodb installation (you may need to create a data directory or set --dbpath).
 
-3.	Then, run webgme start from the project root to start. Finally, navigate to http://localhost:8888 to start using Petri Nets!
+3.	Then, run webgme start from the project root to start. Finally, navigate to http://localhost:8888, using node ./app js.
 
-4.	The Design Studio created for this project is called ‘MiniProject’.
+4.	The Design Studio created for this project is called ‘MiniProject_FinalBranch.webgmex’.
 
 5.	You can also create your own project and use the Seed created called ‘Petri’.
 

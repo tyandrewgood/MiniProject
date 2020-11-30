@@ -35,7 +35,6 @@ class ModelicaCodeGenerator(PluginBase):
       logger.info('committed :{0}'.format(commit_info))
       """
 
-           
       active_node = self.active_node
       core = self.core
       logger = self.logger
@@ -280,4 +279,28 @@ class ModelicaCodeGenerator(PluginBase):
       logger.info(isMarkedGraph)
       logger.info(isFreeChoice)
       logger.info(isWorkFlowNet)
+
+      
+      
+      if (isStateMachine):
+        self.send_notification('This Petri Net is a valid State Machine.')
+      else:
+        self.send_notification('This Petri Net is NOT a valid State Machine.')
+
+      if (isMarkedGraph):
+        self.send_notification('This Petri Net is a valid Marked Graph.')
+      else:
+        self.send_notification('This Petri Net is NOT a valid Marked Graph.')
+      
+      if (isFreeChoice):
+        self.send_notification('This Petri Net is a valid Free Choice Petri Net.')
+      else:
+        self.send_notification('This Petri Net is NOT a valid Free Choice Petri Net.')
+
+      if (isWorkFlowNet):
+        self.send_notification('This Petri Net is a valid Workflow Net.')
+      else:
+        self.send_notification('This Petri Net is NOT a valid Workflow Net.') 
+      
+      
 

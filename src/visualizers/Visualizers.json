@@ -4,5 +4,11 @@
     "title": "MyNewVizualizer",
     "panel": "panels/MyNewVizualizer/MyNewVizualizerPanel",
     "DEBUG_ONLY": false
+  },
+  {
+    "id": "simulator",
+    "title": "simulator",
+    "panel": "panels/simulator/simulatorPanel",
+    "DEBUG_ONLY": false
   }
 ]
